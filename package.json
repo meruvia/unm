@@ -1,0 +1,39 @@
+{
+  "name": "cost-page-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "build-semantic": "cd semantic && gulp build-css build-assets && cp -rf dist/semantic.min.css ../static/",
+    "watch-semantic": "cd semantic && npm run build-semantic && gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "semantic-ui-react": "^0.86.0"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "semantic-ui": "^2.4.2",
+    "semantic-ui-css": "^2.4.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.30.0"
+  }
+}

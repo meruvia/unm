@@ -1,0 +1,38 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+     Fonts
+--------------------*/
+
+@headerFont        : 'Varela Round';
+@pageFont          : 'Lato', 'Open Sans', Arial, Helvetica, sans-serif;
+@fontSmoothing     : antialiased;
+
+@importGoogleFonts : true;
+@googleFontName    : 'Varela Round';
+@googleFontSizes   : '400,700,400italic,700italic';
+@googleFontFamily  : '@{googleFontName}:@{googleFontSizes}';
+
+/*-------------------
+    Base Sizes
+--------------------*/
+
+@emSize      : 14px;
+@fontSize    : 14px;
+
+/*-------------------
+    Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@red           : #E5352D;
+@blue          : #13235B;
+@grey          : #D9DADB;
+
+@lightBlack    : #58585A;
+
+/*---  Brand Colors  ---*/
+@primaryColor        : @blue;
+@secondaryColor      : @grey;
